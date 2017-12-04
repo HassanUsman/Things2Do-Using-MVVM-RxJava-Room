@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Add Task"
+        android:textColor="#000"
+        android:textSize="25sp"
+         />
+
+    <EditText
+        android:layout_below="@+id/title"
+        android:id="@+id/task_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="Title"
+         />
+
+    <EditText
+        android:layout_marginTop="7dp"
+        android:id="@+id/des"
+        android:hint="Description"
+        android:layout_below="@+id/task_title"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+         />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/des"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/checked_white"
+        android:layout_width="wrap_content"/>
+</RelativeLayout>
