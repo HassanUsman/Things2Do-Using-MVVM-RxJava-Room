@@ -4,7 +4,9 @@ This project give you a easy way to imlement MVVM with Dagger2-RxJava-Room. You 
 ## About the Project
 The Application is just like a to-do list application where you can add or remove tasks. There may be something missing (like after adding the task you cannot view the description) but our main goal is to demonstrate how to deal with above given things MVVM,  Dagger2,RxJava and Room. You can see the screenshots of the app below:
 
-
+!<img src="/Screenshot_1512365374.png"  width="200" height="350"> 
+!<img src="/Screenshot_1512365646.png" width="200" height="350">  
+!<img src="/Screenshot_1512365641.png" width="200" height="350"> 
 
 You can see in above screenshots that you can add a task and you can mark it as done or pending. all these tasks are addedd into the DB by Room. We are are also using RxJava and RaxAndroid when deal with database. Dagger2 is used as dependency injection. you can find everthing in the project just go and clone the repo. You can open in Android studio.
 
@@ -190,7 +192,7 @@ You can see in above screenshots that you can add a task and you can mark it as 
    END OF TERMS AND CONDITIONS
 
    
-   Copyright 2017 Manmeet Singh
+   Copyright 2017 Hassan Usman
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
